@@ -1,0 +1,858 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 11vh;
+    /* background: ; */
+    
+}
+
+.nav__brand {
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    color: #939393;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.nav__menu {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    font-weight: 500;
+    width: 46vh; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 2rem;
+    font-weight: 500;
+    width: 47vh;
+    left: 480px;
+    position: absolute;
+    top: 35px;
+
+
+}
+
+
+
+.button {
+    border: 2px solid #263238;
+    border-radius: 5px;
+    position: absolute;
+    width: 174px;
+    height: 60px;
+    left: 1113px;
+    top: 23px;
+    background: white;
+}
+
+
+.metin1 {
+    position: absolute;
+    width: 386px;
+    height: 235px;
+    left: 48px;
+    top: 180px;
+    font-weight: 600;
+    font-size: 66px;
+    font-family: sans-serif;
+    line-height: 80px;
+    color: #000000;
+}
+
+.metin2 {
+    position: absolute;
+    width: 632px;
+    height: 108px;
+    left: 55px;
+    top: 440px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8f95a5;
+}
+
+.nav__logo1 {
+    /* position: absolute;
+    width: 106px;
+    height: 54px;
+    left: 129px;
+    top: 57px;  */
+
+    position: absolute;
+    width: 106px;
+    height: 54px;
+    left: 55px;
+    top: 35px;
+
+}
+
+.womenphoto {
+   position: absolute;
+   width: 661px;
+   height: 661px;
+   left: 660px;
+   top: 100px;
+}
+
+
+.lampalogo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 480px;
+    top: 286px;
+}
+
+.getstarted {
+    border-radius: 15px;
+    position: absolute;
+    width: 383px;
+    height: 118px;
+    left: 56px;
+    top: 580px;
+    background-color: #263238;
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+.title {
+    position: absolute;
+    left: 620px;
+    top: 817px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.skill_paragraf1 {
+    position: absolute;
+width: 347px;
+height: 192px;
+left: 50px;
+top: 490px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+
+color: #8F95A5;
+}
+
+.skill_paragraf2 {
+    position: absolute;
+width: 347px;
+height: 192px;
+left: 50px;
+top: 600px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+
+color: #8F95A5;
+}
+
+.skill_paragraf3 {
+    position: absolute;
+width: 632px;
+height: 72px;
+left: 50px;
+top: 350px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+
+color: #8F95A5;
+}
+ .skill_paragraf4 {
+    position: absolute;
+width: 632px;
+height: 72px;
+left: 50px;
+top: 350px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+
+color: #8F95A5;
+
+ }
+
+.skill_paragraf5 {
+    position: absolute;
+width: 632px;
+height: 72px;
+left: 50px;
+top: 115px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+
+color: #8F95A5;
+}
+
+
+
+
+
+.skills_name1 {
+    position: absolute;
+width: 144px;
+height: 80px;
+left: 50px;
+top: 400px;
+font-family: sans-serif;
+font-weight: 600;
+font-size: 30px;
+line-height: 80px;
+/* identical to box height, or 267% */
+
+color: #263238;
+
+}
+
+.skill_name2 {
+position: absolute;
+width: 112px;
+height: 80px;
+left: 50px;
+top: 280px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 80px;
+/* identical to box height, or 267% */
+
+color: #263238;
+
+}
+
+.skill_name3 {
+    position: absolute;
+width: 127px;
+height: 80px;
+left: 50px;
+top: 280px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 80px;
+/* identical to box height, or 267% */
+color: #263238;
+}
+
+.skill_name4 {
+    position: absolute;
+width: 137px;
+height: 80px;
+left: 50px;
+top: 45px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 80px;
+/* identical to box height, or 267% */
+
+
+color: #263238;
+}
+
+
+
+.skill_img1 {
+    position: absolute;
+    width: 390px;
+    height: 390px;
+    left: 30px;
+    top: 20px;
+}
+
+.skill_img2 {
+    position: absolute;
+width: 293px;
+height: 293px;
+left: 130px;
+top: 20px;
+}
+
+.skill_img3 {
+    position: absolute;
+width: 371px;
+height: 247px;
+left: 1px;
+top: 20px;
+}
+
+.skill_img4 {
+    position: absolute;
+width: 382px;
+height: 255px;
+left: 480px;
+top: 40px;
+
+}
+
+.skill_card {
+    position: absolute;
+width: 435px;
+height: 894px;
+left: 10px;
+top: 950px;
+
+background: #F5F5F5;
+border-radius: 10px;
+}
+
+.skill_card2 {
+    position: absolute;
+    width: 434px;
+    height: 531px;
+    left: 450px;
+    top: 1px;
+    
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+
+.skill_card3 {
+    position: absolute;
+width: 435px;
+height: 532px;
+left: 900px;
+top: 1px;
+
+background: #F5F5F5;
+border-radius: 10px;
+}
+
+.skill_card4 {
+position: absolute;
+width: 885px;
+height: 343px;
+left: 450px;
+top: 550px;
+background: #F5F5F5;
+border-radius: 10px;
+}
+
+
+.learnmore {
+    position: absolute;
+width: 230px;
+height: 60px;
+left: 50px;
+top: 750px;
+font-family: sans-serif;
+color: white;
+background: #263238;
+border-radius: 5px;
+}
+
+.learnmore2 {
+    position: absolute;
+width: 218px;
+height: 60px;
+left: 50px;
+top: 440px;
+color: white;
+font-family: sans-serif;
+background: #263238;
+border-radius: 5px;
+}
+
+.learnmore3 {
+    position: absolute;
+width: 218px;
+height: 60px;
+left: 50px;
+top: 440px;
+color: white;
+font-family: sans-serif;
+background: #263238;
+border-radius: 5px;
+}
+
+.learnmore4 {
+position: absolute;
+width: 218px;
+height: 60px;
+left: 50px;
+top: 210px;
+color: white;
+font-family: sans-serif;
+background: #263238;
+border-radius: 5px;
+}
+
+.about_image {
+position: absolute;
+width: 500px;
+height: 500px;
+left: 750px;
+top: 1000px;
+}
+
+.aboutus {
+position: absolute;
+width: 219px;
+height: 80px;
+left: 30px;
+top:  1020px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #000000;
+}
+
+.aboutusparagraf {
+position: absolute;
+width: 635px;
+height: 240px;
+left: 1px;
+top: 1120px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #8F95A5;
+
+}
+
+
+.aboutnumber1 {
+    position: absolute;
+width: 93px;
+height: 80px;
+left: 10px;
+top: 2270px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #2A3246;
+
+}
+
+.pupils {
+    position: absolute;
+width: 635px;
+height: 30px;
+left: 25px;
+top: 2340px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+
+.aboutnumber2 {
+    position: absolute;
+width: 49px;
+height: 80px;
+left: 240px;
+top: 2270px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #2A3246;
+
+}
+
+.teachers {
+position: absolute;
+width: 635px;
+height: 30px;
+left: 230px;
+top: 2340px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+
+.aboutnumber3 {
+    position: absolute;
+width: 31px;
+height: 80px;
+left: 500px;
+top: 2270px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #2A3246;
+}
+
+.foreign_languages {
+    position: absolute;
+width: 635px;
+height: 30px;
+left:  430px;
+top: 2340px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+
+
+.pricing {
+position: absolute;
+width: 169px;
+height: 80px;
+left: 620px;
+top: 2550px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #000000;
+}
+
+.pricing_card {
+position: absolute;
+width: 220px;
+height: 45px;
+left: 50px;
+top: 3150px;
+background: #EEEEEE;
+border-radius: 5px;
+}
+
+.pricing_card2 {
+position: absolute;
+width: 220px;
+height: 45px;
+left: 530px;
+top: 3150px;
+background: #EEEEEE;
+border-radius: 5px;
+}
+
+.pricing_card3 {
+position: absolute;
+width: 220px;
+height: 45px;
+left: 970px;
+top: 3150px;
+background: #EEEEEE;
+border-radius: 5px;
+}
+
+.pricing_img {
+position: absolute;
+width: 311px;
+height: 311px;
+left: 50px;
+top: 2650px;
+}
+
+.pricing_img2 {
+position: absolute;
+width: 391px;
+height: 283px;
+left: 485px;
+top: 2677px;
+}
+
+.pricing_img3 {
+position: absolute;
+width: 391px;
+height: 283px;
+left: 940px;
+top: 2640px;
+}
+
+.pricing_name1 {
+position: absolute;
+width: 372px;
+height: 48px;
+left: 50px;
+top: 3000px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 0px;
+color: #263238;
+}
+
+.pricing_name2 {
+position: absolute;
+width: 282px;
+height: 48px;
+left: 530px;
+top: 2980px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 48px;
+color: #263238;
+}
+
+.pricing_name3 {
+position: absolute;
+width: 282px;
+height: 48px;
+left: 970px;
+top: 2980px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 48px;
+color: #263238;
+}
+
+.pricing_paragraf1 {
+position: absolute;
+width: 635px;
+height: 90px;
+left: 50px;
+top: 3035px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 30px;
+color: #8F95A5;
+}
+
+.pricing_paragraf2 {
+position: absolute;
+width: 635px;
+height: 60px;
+left: 530px;
+top: 3035px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+
+.pricing_paragraf3 {
+position: absolute;
+width: 635px;
+height: 60px;
+left: 970px;
+top: 3035px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+
+.value {
+position: absolute;
+width: 90px;
+height: 45px;
+left: 75px;
+top: 3152px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+color: #263238;
+}
+
+.value2 {
+position: absolute;
+width: 90px;
+height: 45px;
+left: 550px;
+top: 3152px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+color: #263238;
+}
+
+.value_paragraf {
+position: absolute;
+width: 100px;
+height: 27px;
+left: 166px;
+top: 3158px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #546269;
+}
+
+.value_paragraf2 {
+position: absolute;
+width: 100px;
+height: 27px;
+left: 655px;
+top: 3158px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #546269;
+}
+
+
+.contactus_img {
+position: absolute;
+width: 477px;
+height: 429px;
+left: 50px;
+top: 3300px;
+}
+
+.contact_us {
+position: absolute;
+width: 269px;
+height: 80px;
+left: 600px;
+top: 3322px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #000000;
+}
+
+.contactus_paragraf {
+position: absolute;
+width: 776px;
+height: 60px;
+left: 600px;
+top: 3409px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #8F95A5;
+}
+
+.contact_email {
+box-sizing: border-box;
+position: absolute;
+width: 450px;
+height: 80px;
+left: 600px;
+top: 3500px;
+border: 1px solid #8F95A5;
+border-radius: 10px;
+padding: 29px;
+}
+
+.subscribe_button {
+position: absolute;
+width: 264px;
+height: 80px;
+left: 1060px;
+top: 3500px;
+font-family: sans-serif;
+color: white;
+background: #263238;
+border-radius: 10px;
+}
+
+.hr {
+position: absolute;
+width: 1338px;
+height: 1px;
+left: 50px;
+top: 3760px;
+background: #C4C4C4;
+}
+
+.britlexlogo2 {
+position: absolute;
+width: 106px;
+height: 54px;
+left: 50px;
+top: 3820px;
+}
+
+.endparagraf {
+position: absolute;
+width: 776px;
+height: 36px;
+top: 3820px;
+left: 893px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+color: #8F95A5;
+}
