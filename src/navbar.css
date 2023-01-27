@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 html {
     font-size: 62.5%;
 }
@@ -28,12 +29,10 @@ a{
     align-items: center;
     justify-content: space-around;
     height: 11vh;
-    /* background: ; */
-    
+    width: 0;
 }
 
 .nav__brand {
-    /* text-transform: uppercase; */
     font-weight: bold;
     color: #939393;
     font-size: 36px;
@@ -41,14 +40,7 @@ a{
 }
 
 .nav__menu {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
-    font-weight: 500;
-    width: 46vh; */
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
     gap: 2rem;
     font-weight: 500;
@@ -57,9 +49,7 @@ a{
     position: absolute;
     top: 35px;
 
-
 }
-
 
 
 .button {
@@ -68,13 +58,13 @@ a{
     position: absolute;
     width: 174px;
     height: 60px;
-    left: 1113px;
+    left: 1200px;
     top: 23px;
     background: white;
 }
 
 
-.metin1 {
+.hero_title{
     position: absolute;
     width: 386px;
     height: 235px;
@@ -87,7 +77,7 @@ a{
     color: #000000;
 }
 
-.metin2 {
+.hero_paragraf{
     position: absolute;
     width: 632px;
     height: 108px;
@@ -99,13 +89,7 @@ a{
     color: #8f95a5;
 }
 
-.nav__logo1 {
-    /* position: absolute;
-    width: 106px;
-    height: 54px;
-    left: 129px;
-    top: 57px;  */
-
+.nav__logo_one {
     position: absolute;
     width: 106px;
     height: 54px;
@@ -118,7 +102,7 @@ a{
    position: absolute;
    width: 661px;
    height: 661px;
-   left: 660px;
+   left: 730px;
    top: 100px;
 }
 
@@ -155,40 +139,37 @@ a{
     line-height: 80px;
 }
 
-.skill_paragraf1 {
-    position: absolute;
+.skill_one_paragraf {
+position: absolute;
 width: 347px;
 height: 192px;
 left: 50px;
 top: 490px;
-
 font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 17px;
 line-height: 24px;
-
 color: #8F95A5;
 }
 
-.skill_paragraf2 {
-    position: absolute;
+.skill_two_paragraf {
+position: absolute;
 width: 347px;
 height: 192px;
 left: 50px;
 top: 600px;
-
 font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 17px;
 line-height: 24px;
-
 color: #8F95A5;
 }
 
-.skill_paragraf3 {
-    position: absolute;
+
+.skill_three_paragraf {
+position: absolute;
 width: 632px;
 height: 72px;
 left: 50px;
@@ -198,12 +179,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 24px;
-
 color: #8F95A5;
 }
- .skill_paragraf4 {
-    position: absolute;
-width: 632px;
+
+
+.skill_four_paragraf {
+position: absolute;
 height: 72px;
 left: 50px;
 top: 350px;
@@ -212,13 +193,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 24px;
-
 color: #8F95A5;
 
- }
+}
 
-.skill_paragraf5 {
-    position: absolute;
+.skill_five_paragraf {
+position: absolute;
 width: 632px;
 height: 72px;
 left: 50px;
@@ -228,16 +208,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 24px;
-
 color: #8F95A5;
 }
 
 
-
-
-
-.skills_name1 {
-    position: absolute;
+.skills_one_name {
+position: absolute;
 width: 144px;
 height: 80px;
 left: 50px;
@@ -246,13 +222,11 @@ font-family: sans-serif;
 font-weight: 600;
 font-size: 30px;
 line-height: 80px;
-/* identical to box height, or 267% */
-
 color: #263238;
 
 }
 
-.skill_name2 {
+.skill_two_name {
 position: absolute;
 width: 112px;
 height: 80px;
@@ -263,49 +237,40 @@ font-style: normal;
 font-weight: 600;
 font-size: 30px;
 line-height: 80px;
-/* identical to box height, or 267% */
-
 color: #263238;
 
 }
 
-.skill_name3 {
-    position: absolute;
+.skill_three_name {
+position: absolute;
 width: 127px;
 height: 80px;
 left: 50px;
 top: 280px;
-
 font-family: sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
 line-height: 80px;
-/* identical to box height, or 267% */
 color: #263238;
 }
 
-.skill_name4 {
-    position: absolute;
+.skill_four_name {
+position: absolute;
 width: 137px;
 height: 80px;
 left: 50px;
 top: 45px;
-
 font-family: sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
 line-height: 80px;
-/* identical to box height, or 267% */
-
-
 color: #263238;
 }
 
 
-
-.skill_img1 {
+.skill_one_img{
     position: absolute;
     width: 390px;
     height: 390px;
@@ -313,24 +278,24 @@ color: #263238;
     top: 20px;
 }
 
-.skill_img2 {
-    position: absolute;
+.skill_two_img {
+position: absolute;
 width: 293px;
 height: 293px;
 left: 130px;
 top: 20px;
 }
 
-.skill_img3 {
-    position: absolute;
+.skill_three_img {
+position: absolute;
 width: 371px;
 height: 247px;
 left: 1px;
 top: 20px;
 }
 
-.skill_img4 {
-    position: absolute;
+.skill_four_img {
+position: absolute;
 width: 382px;
 height: 255px;
 left: 480px;
@@ -338,40 +303,37 @@ top: 40px;
 
 }
 
-.skill_card {
-    position: absolute;
+.skill_one_card {
+position: absolute;
 width: 435px;
 height: 894px;
 left: 10px;
 top: 950px;
-
 background: #F5F5F5;
 border-radius: 10px;
 }
 
-.skill_card2 {
+.skill_two_card {
     position: absolute;
     width: 434px;
     height: 531px;
     left: 450px;
     top: 1px;
-    
     background: #F5F5F5;
     border-radius: 10px;
 }
 
-.skill_card3 {
-    position: absolute;
+.skill_three_card {
+position: absolute;
 width: 435px;
 height: 532px;
 left: 900px;
 top: 1px;
-
 background: #F5F5F5;
 border-radius: 10px;
 }
 
-.skill_card4 {
+.skill_four_card {
 position: absolute;
 width: 885px;
 height: 343px;
@@ -383,7 +345,7 @@ border-radius: 10px;
 
 
 .learnmore {
-    position: absolute;
+position: absolute;
 width: 230px;
 height: 60px;
 left: 50px;
@@ -394,8 +356,8 @@ background: #263238;
 border-radius: 5px;
 }
 
-.learnmore2 {
-    position: absolute;
+.learnmore_two {
+position: absolute;
 width: 218px;
 height: 60px;
 left: 50px;
@@ -406,8 +368,8 @@ background: #263238;
 border-radius: 5px;
 }
 
-.learnmore3 {
-    position: absolute;
+.learnmore_three {
+position: absolute;
 width: 218px;
 height: 60px;
 left: 50px;
@@ -418,7 +380,7 @@ background: #263238;
 border-radius: 5px;
 }
 
-.learnmore4 {
+.learnmore_four {
 position: absolute;
 width: 218px;
 height: 60px;
@@ -434,7 +396,7 @@ border-radius: 5px;
 position: absolute;
 width: 500px;
 height: 500px;
-left: 750px;
+left: 850px;
 top: 1000px;
 }
 
@@ -442,7 +404,7 @@ top: 1000px;
 position: absolute;
 width: 219px;
 height: 80px;
-left: 30px;
+left: 60px;
 top:  1020px;
 font-family: sans-serif;
 font-style: normal;
@@ -456,8 +418,8 @@ color: #000000;
 position: absolute;
 width: 635px;
 height: 240px;
-left: 1px;
-top: 1120px;
+left: 60px;
+top: 1110px;
 font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -469,11 +431,11 @@ color: #8F95A5;
 }
 
 
-.aboutnumber1 {
-    position: absolute;
+.aboutnumber {
+position: absolute;
 width: 93px;
 height: 80px;
-left: 10px;
+left: 92px;
 top: 2270px;
 font-family: sans-serif;
 font-style: normal;
@@ -484,11 +446,41 @@ color: #2A3246;
 
 }
 
-.pupils {
+.aboutnumber_two {
     position: absolute;
+    width: 49px;
+    height: 80px;
+    left: 318px;
+    top: 2270px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+    
+    }
+
+
+.aboutnumber_three {
+position: absolute;
+width: 31px;
+height: 80px;
+left: 567px;
+top: 2270px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #2A3246;
+}
+
+.pupils {
+position: absolute;
 width: 635px;
 height: 30px;
-left: 25px;
+left: 105px;
 top: 2340px;
 font-family: sans-serif;
 font-style: normal;
@@ -498,26 +490,13 @@ line-height: 30px;
 color: #8F95A5;
 }
 
-.aboutnumber2 {
-    position: absolute;
-width: 49px;
-height: 80px;
-left: 240px;
-top: 2270px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 80px;
-color: #2A3246;
 
-}
 
 .teachers {
 position: absolute;
 width: 635px;
 height: 30px;
-left: 230px;
+left: 305px;
 top: 2340px;
 font-family: sans-serif;
 font-style: normal;
@@ -527,25 +506,13 @@ line-height: 30px;
 color: #8F95A5;
 }
 
-.aboutnumber3 {
-    position: absolute;
-width: 31px;
-height: 80px;
-left: 500px;
-top: 2270px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 80px;
-color: #2A3246;
-}
+
 
 .foreign_languages {
-    position: absolute;
+position: absolute;
 width: 635px;
 height: 30px;
-left:  430px;
+left:  494px;
 top: 2340px;
 font-family: sans-serif;
 font-style: normal;
@@ -580,7 +547,7 @@ background: #EEEEEE;
 border-radius: 5px;
 }
 
-.pricing_card2 {
+.pricing_card_two {
 position: absolute;
 width: 220px;
 height: 45px;
@@ -590,7 +557,7 @@ background: #EEEEEE;
 border-radius: 5px;
 }
 
-.pricing_card3 {
+.pricing_card_three {
 position: absolute;
 width: 220px;
 height: 45px;
@@ -608,7 +575,7 @@ left: 50px;
 top: 2650px;
 }
 
-.pricing_img2 {
+.pricing_img_two {
 position: absolute;
 width: 391px;
 height: 283px;
@@ -616,7 +583,7 @@ left: 485px;
 top: 2677px;
 }
 
-.pricing_img3 {
+.pricing_img_three {
 position: absolute;
 width: 391px;
 height: 283px;
@@ -624,7 +591,7 @@ left: 940px;
 top: 2640px;
 }
 
-.pricing_name1 {
+.pricing_name {
 position: absolute;
 width: 372px;
 height: 48px;
@@ -638,7 +605,7 @@ line-height: 0px;
 color: #263238;
 }
 
-.pricing_name2 {
+.pricing_name_two {
 position: absolute;
 width: 282px;
 height: 48px;
@@ -652,7 +619,7 @@ line-height: 48px;
 color: #263238;
 }
 
-.pricing_name3 {
+.pricing_name_three {
 position: absolute;
 width: 282px;
 height: 48px;
@@ -666,7 +633,7 @@ line-height: 48px;
 color: #263238;
 }
 
-.pricing_paragraf1 {
+.pricing_paragraf {
 position: absolute;
 width: 635px;
 height: 90px;
@@ -680,7 +647,7 @@ line-height: 30px;
 color: #8F95A5;
 }
 
-.pricing_paragraf2 {
+.pricing_paragraf_two {
 position: absolute;
 width: 635px;
 height: 60px;
@@ -694,9 +661,8 @@ line-height: 30px;
 color: #8F95A5;
 }
 
-.pricing_paragraf3 {
+.pricing_paragraf_three {
 position: absolute;
-width: 635px;
 height: 60px;
 left: 970px;
 top: 3035px;
@@ -708,7 +674,7 @@ line-height: 30px;
 color: #8F95A5;
 }
 
-.value {
+.value_one {
 position: absolute;
 width: 90px;
 height: 45px;
@@ -722,7 +688,7 @@ line-height: 45px;
 color: #263238;
 }
 
-.value2 {
+.value_two {
 position: absolute;
 width: 90px;
 height: 45px;
@@ -736,7 +702,23 @@ line-height: 45px;
 color: #263238;
 }
 
-.value_paragraf {
+.value_three {
+    position: absolute;
+    width: 90px;
+    height: 45px;
+    left: 988px;
+    top: 3152px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+    }
+    
+
+
+.value_one_paragraf {
 position: absolute;
 width: 100px;
 height: 27px;
@@ -750,7 +732,7 @@ line-height: 27px;
 color: #546269;
 }
 
-.value_paragraf2 {
+.value_two_paragraf {
 position: absolute;
 width: 100px;
 height: 27px;
@@ -763,6 +745,22 @@ font-size: 18px;
 line-height: 27px;
 color: #546269;
 }
+
+.value_three_paragraf {
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 1095px;
+    top: 3159px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+    }
+
+
 
 
 .contactus_img {
@@ -835,7 +833,7 @@ top: 3760px;
 background: #C4C4C4;
 }
 
-.britlexlogo2 {
+.britlexlogo_two {
 position: absolute;
 width: 106px;
 height: 54px;
@@ -845,7 +843,6 @@ top: 3820px;
 
 .endparagraf {
 position: absolute;
-width: 776px;
 height: 36px;
 top: 3820px;
 left: 893px;
@@ -856,3 +853,6 @@ font-size: 18px;
 line-height: 36px;
 color: #8F95A5;
 }
+
+
+
